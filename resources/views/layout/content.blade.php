@@ -1,0 +1,8 @@
+@include('layout.header')
+@include('layout.menu')
+@include('layout.slider')
+@include('layout.section3')
+@include('layout.middle_div')
+@include('layout.index_social_feed')
+@yield('main-section')
+@include('layout.footer')
