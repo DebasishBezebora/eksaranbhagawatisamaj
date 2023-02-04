@@ -9,10 +9,10 @@
             <div class="navbar-brand">
                 <span class="navbar-logo">
                     <a href="{{url('/')}}/">
-                        <img src="{{url('/')}}/assets/images/logo.png" alt="Mobirise Website Builder" style="height: 5.5rem;">
+                        <img src="{{url('/')}}/admin/eksaranbhagawatisamaj/files/{{ $siteSettings->Logo }}" alt="Mobirise Website Builder" style="height: 5.5rem;">
                     </a>
                 </span>
-                <span class="navbar-caption-wrap"><a class="text-black logo_name" href="{{url('/')}}/" style="font-family: 'Roboto Condensed', sans-serif;"> একশৰণ ভাগৱতী সমাজ </a></span>
+                <span class="navbar-caption-wrap"><a class="text-black logo_name" href="{{url('/')}}/" style="font-family: 'Roboto Condensed', sans-serif;"> {{ $siteSettings->Brand_Name }} </a></span>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <div class="hamburger">
@@ -24,10 +24,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
-                    <li class="nav-item"><a class="nav-link link text-black display-4" href="{{url('/')}}/"><i class="fa-sharp fa-solid fa-house-chimney"></i></a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link link text-black display-4" href="{{url('/')}}/program">কার্যসূচী</a>
-                    </li>
+                    <li class="nav-item"><a class="nav-link link text-black display-4" href="{{url('/')}}/"><i class="fa-sharp fa-solid fa-house-chimney"></i></a></li>
+                    <li class="nav-item"><a class="nav-link link text-black display-4" href="{{url('/')}}/কার্যসূচী">কার্যসূচী</a></li>
+                    <li class="nav-item"><a class="nav-link link text-black display-4" href="{{url('/')}}/২০২৩ চনৰ আভাস">২০২৩ চনৰ আভাস</a></li>
                 </ul>
             </div>
         </div>

@@ -17,7 +17,9 @@ use App\Http\Controllers\ControllerRoute;
 */
 
 Route::get('/', [ControllerRoute::class, 'home']);
-Route::get('/program', [ControllerRoute::class, 'program']);
+Route::get('/কার্যসূচী', [ControllerRoute::class, 'program']);
+Route::get('/২০২৩ চনৰ আভাস', [ControllerRoute::class, 'gallery']);
+Route::get('/আভাস/{id}', [ControllerRoute::class, 'photographs']);
 
 // Route::get('/login', [CustomAuthController::class, 'login'])->middleware('alreadyLoggedIn');
 // Route::post('/user-login', [CustomAuthController::class, 'loginUser']);

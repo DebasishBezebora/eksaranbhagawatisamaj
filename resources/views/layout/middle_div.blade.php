@@ -25,7 +25,7 @@
                             </li>
                         </ul>
                         <div class="mbr-section-btn pb-4">
-                            <a class="btn btn-lg btn-white-outline btn-bgr display-7" href="{{url('/')}}/program">ক্লিক কৰক</a>
+                            <a class="btn btn-lg btn-white-outline btn-bgr display-7" href="{{url('/')}}/কার্যসূচী">ক্লিক কৰক</a>
                         </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
                             </li>
                         </ul>
                         <div class="mbr-section-btn pb-4">
-                            <a class="btn btn-lg btn-white-outline btn-bgr display-7" href="{{url('/')}}/program">ক্লিক কৰক</a>
+                            <a class="btn btn-lg btn-white-outline btn-bgr display-7" href="{{url('/')}}/কার্যসূচী">ক্লিক কৰক</a>
                         </div>
                     </div>
                 </div>
@@ -83,7 +83,7 @@
                             </li>
                         </ul>
                         <div class="mbr-section-btn pb-4">
-                            <a class="btn btn-lg btn-white-outline btn-bgr display-7" href="{{url('/')}}/program">ক্লিক কৰক</a>
+                            <a class="btn btn-lg btn-white-outline btn-bgr display-7" href="{{url('/')}}/কার্যসূচী">ক্লিক কৰক</a>
                         </div>
                     </div>
                 </div>

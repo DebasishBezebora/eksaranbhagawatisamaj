@@ -1,0 +1,11 @@
+{
+    "name": "eksbs",
+    "version": "18.4.0",
+    "description": "eksbs",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "private": true,
+    "dependencies": {},
+    "engines": {
+        "node": ">=16"
+    }
+}
